@@ -9,3 +9,16 @@ function getComputerChoice(){
         return "scissors"
     }
 }
+
+//Human Choice
+function getHumanChoice(){
+    let human = prompt("Pick Rock | Paper | Scissors").toLowerCase().trim();
+    switch(human){
+        case "rock":
+            return "rock";
+        case "paper":
+            return "paper";
+        case "scissors":
+            return "scissors"
+    }
+}
